@@ -1,0 +1,5 @@
+PROJECT OVERVIEW
+
+In a multiprogramming system, multiple processes run concurrently and compete for limited CPU and memory resources. Static resource allocation leads to inefficiency because the resource demands of processes fluctuate over time.
+This project implements an Adaptive Resource Allocation Simulator that dynamically adjusts CPU and memory allocation for each process based on real-time usage. The system continuously monitors process load, detects bottlenecks, and reallocates resources to maintain system stability, improve performance, and prevent overload.
+The simulation emulates simplified operating system behavior and demonstrates how modern OS kernels adjust resources to optimize utilization.

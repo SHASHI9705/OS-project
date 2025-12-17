@@ -1,0 +1,22 @@
+MODULE-WISE BREAKDOWN
+
+Module 1: Monitoring Module
+•	Tracks the CPU usage and memory usage of each process in real time.
+•	Generates usage values dynamically to simulate fluctuating loads.
+•	Computes total system CPU and memory load.
+•	Detects when a process is overusing or underutilizing resources.
+
+Module 2: Adaptive Allocation Module
+•	Compares resource usage against predefined thresholds (e.g., 70%).
+•	Identifies overloaded processes and increases their resource allocation.
+•	Reduces allocation for lightly loaded processes to free resources.
+•	Prevents bottlenecks by adapting allocations continuously.
+•	Ensures allocation remains within available system limits.
+
+
+Module 3: Output & Visualization Module
+•	Displays a formatted table showing CPU allocation, memory allocation, usage, and priority.
+•	Updates the output at each iteration to show real-time changes.
+•	Shows system-level CPU and memory load for each cycle.
+•	Allows users to run a fixed number of iterations or run indefinitely.
+
